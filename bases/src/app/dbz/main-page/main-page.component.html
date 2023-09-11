@@ -11,7 +11,7 @@
 </ul>-->
 </div>
 <div class="col">
-    <app-agregar [data]="personajes" [nuevo]="nuevo"></app-agregar>
+    <app-agregar [nuevo]="nuevo" (onNuevoPersonaje)="agregarNuevoPersonaje($event)" ></app-agregar>
     <!--
 <h3>Agregar</h3>
 <hr>
